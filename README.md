@@ -152,7 +152,9 @@ This setup is designed for **maximum security**:
 
 To add a friend/family member:
 1. Ask them to chat with the bot.
-2. You (the owner) run: `/add_access <their_id> "Friend Name"` in Telegram.
+   - They will receive a message: `Access not configured. Please ask the owner to approve pairing code: 123456`.
+2. You (the owner) run: `/add_access 123456 "Friend Name"` in your Telegram chat with the bot.
+   - This approves their pairing code AND adds them to the whitelist in one step.
 
 ---
 

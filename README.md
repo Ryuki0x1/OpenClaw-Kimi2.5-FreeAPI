@@ -34,9 +34,25 @@ OpenRouter aggregates free models like DeepSeek V3, Llama 3, and Qwen.
 
 ---
 
-## 📥 Installation
+## ⚡ Fast Deployment (One-Click)
 
-### 1. Install System Tools
+We provide a specialized script that installs dependencies, Node.js, OpenClaw, and configures everything for you interactively.
+
+1. **Run the Installer**:
+   ```bash
+   curl -sL https://raw.githubusercontent.com/Ryuki0x1/openclaw-free-kimi-api/master/setup.sh | bash
+   ```
+2. **Follow the Prompts**:
+   - Enter your **Telegram Bot Token**.
+   - Choose **NVIDIA NIM** (for Kimi) or **OpenRouter**.
+   - Enter your **API Key**.
+   - Enter your **Telegram User ID** (to secure the bot).
+
+The script will generate secure config files, install all skills, and start the daemon automatically.
+
+---
+
+## 🛠️ Manual Installation
 On Debian/Ubuntu:
 ```bash
 sudo apt update
